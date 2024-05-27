@@ -162,7 +162,7 @@
 }
 
 .makeup-div{
-  width: 12rem;
+  width: 9rem;
   display: flex;
   flex-direction: column;
   gap: 11px;
@@ -573,6 +573,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 7px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
 .serchproducts-input {
@@ -1416,6 +1418,21 @@
     float: inline-end;
     margin: -1.5rem -1rem;
   }
+
+  .cart-footer-container {
+    display: flex;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .cart-footer-container aside {
+    width: 330px;
+  }
+
+  .cart-footer-container .css-1jlhf24.ps-broken.ps-rtl {
+    right: -330px;
+  }
+
 }
 
 @media only screen and (max-width: 320px) {
@@ -1457,6 +1474,7 @@
   .cart-footer-container .css-1jlhf24.ps-broken.ps-rtl {
     right: -330px;
   }
+
 }
 
 
